@@ -1,20 +1,20 @@
 # Project Name
---Short Description
+A little JavaScript Calculator for the web. We created this as part lesson at Epicodus.
 
 ## Features
---What does it do?
+This page will work as a calculator for multiplying, dividing, subtraction, and addition.
 
 ##Languages
---List languages
+CSS, JavaScript, and JQuery
 
 ## Usage
-To view the site, you can go to --Insert your addresses [mehequanna.github.io/portfolio](mehequanna.github.io/portfolio).
-To use the code, you can clone the repository at --Use your addresses [https://github.com/Mehequanna/portfolio](https://github.com/Mehequanna/portfolio).
---Simple use instructions.
+To view the site, you can go to [jryanconklin.github.io/calculator2](jryanconklin.github.io/calculator2).
+To use the code, you can clone the repository at [https://github.com/Mehequanna/e-calculator](https://github.com/Mehequanna/e-calculator).
+Fork the repository and double click on index.html.
 
 ## Author/s
---Name/s
+Ryan Conklin & Stephen Emery
 
 ##License
 This work can be used under the The MIT License.
-Copyright (c) 2016 --Name
+Copyright (c) 2016 Ryan Conklin & Stephen Emery
