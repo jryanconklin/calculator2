@@ -1,0 +1,12 @@
+.calc-forms {
+  margin-top: 20px;
+}
+.form-control {
+  /*width: 25%;*/
+  /*padding: 25px;*/
+  /*font-size: 4rem;*/
+}
+
+#answer-block {
+  display: none;
+}
