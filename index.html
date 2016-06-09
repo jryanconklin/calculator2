@@ -22,25 +22,60 @@
     <div class="container">
       <h1>Calculator</h1>
 
-<!-- Addition -->
+<!-- calculator -->
       <div class="col-md-2 calc-forms">
         <h3>Addition</h3>
-        <form id="add">
+        <form id="calculator">
           <div class="form-group">
-            <label for="add1">1st number:</label>
-            <input id="add1" class="form-control input-lg" type="text">
+            <label for="input1">1st number:</label>
+            <input id="input1" class="form-control input-lg" type="text">
           </div>
           <div class="form-group">
-            <label for="add2">2nd number:</label>
-            <input id="add2" class="form-control input-lg" type="text">
+            <label for="input2">2nd number:</label>
+            <input id="input2" class="form-control input-lg" type="text">
           </div>
-          <button type="submit" class="btn btn-success">Add!</button>
+          <div class="radio">
+            <label>
+              <input type="radio" name="operator" value="add" checked>
+              add
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="operator" value="subtract">
+              subtract
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="operator" value="multiply">
+              multiply
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="operator" value="divide">
+              divide
+            </label>
+          </div>
+          <button type="submit" class="btn btn-success">Submit!</button>
         </form>
       </div>
 
+<!-- Output -->
+      <div id="answer-block" class="col-lg-12 text-center">
+        <h2>Your answer is: <br><span class="answer"></span></h2>
+     </div>
+    </div>
+  </body>
+</html>
+
+
+
+
 
 <!-- Subtraction -->
-      <div class="col-md-2 calc-forms">
+      <!-- <div class="col-md-2 calc-forms">
         <h3>Subtraction</h3>
         <form id="subtract">
           <div class="form-group">
@@ -56,8 +91,8 @@
       </div>
 
 
-<!-- Multiply -->
-      <div class="col-md-2 calc-forms">
+<!- Multiply -->
+      <!-- <div class="col-md-2 calc-forms">
         <h3>Multiply</h3>
         <form id="multiply">
           <div class="form-group">
@@ -70,11 +105,11 @@
           </div>
           <button type="submit" class="btn btn-warning">Multiply!</button>
         </form>
-      </div>
+      </div> -->
 
 
 <!-- Divide -->
-      <div class="col-md-2 calc-forms">
+      <!-- <div class="col-md-2 calc-forms">
         <h3>Divide</h3>
         <form id="divide">
           <div class="form-group">
@@ -87,13 +122,4 @@
           </div>
           <button type="submit" class="btn btn-primary">Divide!</button>
         </form>
-      </div>
-
-
-<!-- Output -->
-      <div id="answer-block" class="col-lg-12 text-center">
-        <h2>Your answer is: <br><span class="answer"></span></h2>
-     </div>
-    </div>
-  </body>
-</html>
+      </div> -->
